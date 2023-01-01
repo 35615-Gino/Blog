@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+figure{
+    width: 800px;
+    height: 600px;
+    background-size: cover;
+    animation-name: fotoslider;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fotoslider {
+    0%{
+        opacity: 0;
+        background-image: url("../img/pikminbloom.webp");
+    }
+    
+    12.5%{
+        opacity: 1;
+        background-image: url("../img/pikminbloom.webp");
+    }
+
+    24%{
+        opacity: 0;
+        background-image: url("../img/pikminbloom.png");
+    }
+    25%{
+        opacity: 0;
+        background-image: url("../img/pikminbloom2.png");
+    }
+    37.5%{
+        opacity: 1;
+        background-image: url("../img/pikminbloom2.png");
+    }
+    49%{
+        opacity: 0;
+        background-image: url("../img/pikminbloom2.png");
+    }
+    50%{
+        opacity: 0;
+        background-image: url("../img/pok.png");
+    }
+    62.5%{
+        opacity: 1;
+        background-image: url("../img/pok.png");
+    }
+    74%{
+        opacity: 0;
+        background-image: url("../img/pok.png");
+    }
+    75%{
+        opacity: 0;
+        background-image: url("../img/Starter.png");
+    }
+    87.5%{
+        opacity: 1;
+        background-image: url("../img/Starter.png");
+    }
+    100%{
+        opacity: 0;
+        background-image: url("../img/Starter.png");
+    }
+}

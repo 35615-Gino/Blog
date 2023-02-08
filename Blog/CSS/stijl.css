@@ -78,6 +78,7 @@ h1{
 section{
     width: 60vw;
     padding: 40px;
+    margin: auto;
 }
 
 article{
